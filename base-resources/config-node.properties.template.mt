@@ -23,10 +23,10 @@ shortLivedCacheMaxSize = 1'000'000
 minFeeMultiplier = 100
 transactionSelectionStrategy = maximize-fee
 unconfirmedTransactionsCacheMaxResponseSize = 20MB
-unconfirmedTransactionsCacheMaxSize = 1'000'000
+unconfirmedTransactionsCacheMaxSize = 10'000'000
 
-connectTimeout = 10s
-syncTimeout = 60s
+connectTimeout = 15s
+syncTimeout = 120s
 
 socketWorkingBufferSize = 512KB
 socketWorkingBufferSensitivity = 100
@@ -37,22 +37,22 @@ blockElementTraceInterval = 1
 transactionDisruptorSize = 16384
 transactionElementTraceInterval = 10
 
-enableDispatcherAbortWhenFull = true
+enableDispatcherAbortWhenFull = false
 enableDispatcherInputAuditing = true
 
 outgoingSecurityMode = Signed
-incomingSecurityModes = None, Signed
+incomingSecurityModes = None,Signed
 
 maxCacheDatabaseWriteBatchSize = 5MB
 maxTrackedNodes = 5'000
 
 # all hosts are trusted when list is empty
-trustedHosts =
+trustedHosts = 127.0.0.1
 localNetworks = 127.0.0.1
 
 [localnode]
 
-host = 
+host =
 friendlyName = FRIENDLY_NAME
 version = 0
 roles = Peer
