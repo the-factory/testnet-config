@@ -18,7 +18,7 @@ maxChainBytesPerSyncAttempt = 100MB
 shortLivedCacheTransactionDuration = 10m
 shortLivedCacheBlockDuration = 100m
 shortLivedCachePruneInterval = 90s
-shortLivedCacheMaxSize = 1'000'000
+shortLivedCacheMaxSize = 10'000'000
 
 minFeeMultiplier = 100
 transactionSelectionStrategy = maximize-fee
