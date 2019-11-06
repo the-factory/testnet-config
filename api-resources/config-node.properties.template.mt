@@ -55,7 +55,7 @@ localNetworks = 127.0.0.1
 host =
 friendlyName = FRIENDLY_NAME
 version = 0
-roles = Peer
+roles = Api
 
 [outgoing_connections]
 

@@ -5,7 +5,7 @@ apiPort = {{api_port}}
 maxIncomingConnectionsPerIdentity = 3
 
 enableAddressReuse = false
-enableSingleThreadPool = false
+enableSingleThreadPool = true
 enableCacheDatabaseStorage = {{enable_cache_database_storage}}
 enableAutoSyncCleanup = {{enable_auto_sync_cleanup}}
 
