@@ -18,12 +18,12 @@ maxChainBytesPerSyncAttempt = 100MB
 shortLivedCacheTransactionDuration = 10m
 shortLivedCacheBlockDuration = 100m
 shortLivedCachePruneInterval = 90s
-shortLivedCacheMaxSize = 10'000'000
+shortLivedCacheMaxSize = 200'000
 
 minFeeMultiplier = 100
 transactionSelectionStrategy = maximize-fee
 unconfirmedTransactionsCacheMaxResponseSize = 20MB
-unconfirmedTransactionsCacheMaxSize = 10'000'000
+unconfirmedTransactionsCacheMaxSize = 50'000
 
 connectTimeout = 15s
 syncTimeout = 120s
@@ -52,7 +52,7 @@ localNetworks = 127.0.0.1
 
 [localnode]
 
-host =
+host = IP_ADDRESS
 friendlyName = FRIENDLY_NAME
 version = 0
 roles = Api
