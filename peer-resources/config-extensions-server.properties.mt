@@ -10,7 +10,7 @@ extension.mongo = false
 extension.zeromq = false
 
 # p2p extensions
-extension.eventsource = true
+extension.eventsource = false
 extension.harvesting = true
 extension.syncsource = true
 
